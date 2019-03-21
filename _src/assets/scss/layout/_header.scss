@@ -1,0 +1,32 @@
+.header__container{
+    height: 500px;
+    background-color: red;
+    background-image: url(/_src/assets/images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    height: 44px;
+    width: 44px;
+    background-color: #0271bc;
+    background-image: url(/_src/assets/images/ico-menu.svg);
+    position: fixed;
+}
+
+.header__title{
+    margin: 0;
+    text-align: center;
+}
+
+.link__content{
+    height: 45px;
+    width: 45px;
+    background-image: url(/_src/assets/images/ico-scroll-down.svg);
+}
+
+.claim__main{
+    text-align: center;
+}
+
