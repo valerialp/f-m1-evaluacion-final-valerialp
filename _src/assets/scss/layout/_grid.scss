@@ -1,8 +1,12 @@
 .section__reason{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
+
     @media all and (min-width:768px){
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-template-rows:  1fr 1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 }
 
