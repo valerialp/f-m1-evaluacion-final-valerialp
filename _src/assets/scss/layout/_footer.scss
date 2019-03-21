@@ -2,36 +2,42 @@
     background-color: $color-backgroundTerciary;
     color: $color-textPrimary;
     text-align: center;
+    height: 465px;
 }
+
+.link__footer{
+    text-decoration: none;
+    color: $color-textPrimary;
+}
+
 .nav__footer{
-    grid-area: nav-footer;
     height: 150px;
     list-style: none;
     text-transform: uppercase;
     font-size: 16px;
     padding: 0;
-    margin-bottom: 30px;
-    margin-top: 60px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .social-networks{
-    grid-area: social;
     height: 86px;
     list-style: none;
     text-transform: uppercase;
     font-size: 16px;
     padding: 0;
-    margin: 0;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .copyright{
-    grid-area: copy;
-    margin-top: 30px;
-    margin-bottom: 45px;
+    margin:auto;
+}
+
+.love{
+    color:red;
 }

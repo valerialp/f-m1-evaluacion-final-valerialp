@@ -41,39 +41,51 @@
 }
 
 .section__reason{
-    margin:auto;
     background-color: $color-backgroundSecondary;
     color: $color-textSecondary;
-    
+    height: 624px;
 }
-
+/*
 .reason__title{
+    margin-top: 30px;
+    margin-bottom: 45px;
+
+    @media all and (min-width:768px){
     grid-area: title;
     text-align: center;
     margin: 30px 15px 45px 15px;
     font-size: 24px;
+    }
 }
 
 .reason1{
+   @media all and (min-width:768){
     grid-area: reason1;
     margin:0 auto;
+   }
 }
 
 .reason2{
+    @media all and (min-width:768px){
     grid-area: reason2;
+    }
 }
 
 .reason3{
+    @media all and (min-width:768px){
     grid-area: reason3;
+    }
 }
 
-.button_reason{
+/*.button_reason{
+    @media all and (min-width:768px){
     grid-area: button;
+    }
 }
-
+/*
 .button__up{
     background-image: url(../images/ico-arrow.svg);
     background-color: $color-backgroundPrimary;
     border: none;
     padding: auto;
-}
+}*/
