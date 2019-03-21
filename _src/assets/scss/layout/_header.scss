@@ -1,6 +1,5 @@
 .header__container{
-    height: 500px;
-    background-color: pink;
+    height: 568px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,20 +9,38 @@
 .nav{
     height: 44px;
     width: 44px;
+    border: none;
+    padding: auto;
     background-color: #0271bc;
     background-image: url(../images/ico-menu.svg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     position: fixed;
 }
 
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon__header{
+    height: 14px;
+    width: 16px;
+    padding:auto;
+    
+}
+
 .header__title{
-    margin: 0;
+    height: 110px;
+    width: 290px;
+    margin: auto ;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.link__content{
+.link__main{
     height: 45px;
     width: 45px;
     padding: 15px;
@@ -33,7 +50,15 @@
     background-position: center;
 }
 
-.claim__main{
+.claim{
+    margin-top: 0;
     text-align: center;
+}
+
+.container__link{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: $color-backgroundPrimary;
 }
 
