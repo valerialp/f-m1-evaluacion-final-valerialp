@@ -32,6 +32,11 @@
     color: #f26002;
 }
 
+.section__reason{
+    margin:auto;
+    background-color: $color-backgroundSecondary;
+}
+
 .reason__title{
     grid-area: "title";
 }
