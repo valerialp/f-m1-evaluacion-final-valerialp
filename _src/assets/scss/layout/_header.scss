@@ -1,7 +1,7 @@
 .header__container{
     height: 500px;
-    background-color: red;
-    background-image: url(/_src/assets/images/cover.jpg);
+    background-color: pink;
+    background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,7 +11,10 @@
     height: 44px;
     width: 44px;
     background-color: #0271bc;
-    background-image: url(/_src/assets/images/ico-menu.svg);
+    background-image: url(../images/ico-menu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     position: fixed;
 }
 
@@ -23,7 +26,11 @@
 .link__content{
     height: 45px;
     width: 45px;
-    background-image: url(/_src/assets/images/ico-scroll-down.svg);
+    padding: 15px;
+    background-image: url(../images/ico-scroll-down.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .claim__main{
