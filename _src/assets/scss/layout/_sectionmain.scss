@@ -1,0 +1,28 @@
+.section__title{
+    height: 30px;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 30px;
+    color:#8ccbea;
+}
+
+.section__subtitle{
+    margin: auto 15px;
+    line-height: 30px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.section__content{
+    margin: 15px;
+    line-height: 30px;
+    color: #4a4a4a;
+}
+.button__go{
+    height: 45px;
+    width: 76px;
+    text-decoration: none;
+    border-radius: 22.5px;
+    border: 2px solid #f26002;
+    color: #f26002;
+}
