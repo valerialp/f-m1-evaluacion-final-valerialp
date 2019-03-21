@@ -55,19 +55,22 @@
     }
 }
 
-.container__link{
-    height: 45px;
-    width: 45px;
-    margin-top:27px;
-    margin-bottom: 45px;
-    border-radius: 50%;
-    background-color: $color-backgroundPrimary;
-}
 
 .link__main{
     display: block;
+    background-color: $color-backgroundPrimary;
+    border-radius: 50%;
     height: 45px;
     width: 45px;
+}
+
+.scroll--down{
+    display: block;
+    height: 22px;
+    width: 22px;
+    position: relative;
+    left: 11px;
+    top: 11px;
 }
 
 .claim{
