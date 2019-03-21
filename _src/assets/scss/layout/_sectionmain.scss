@@ -1,24 +1,26 @@
 .section__title{
     height: 30px;
-    margin-left: 15px;
+    margin:30px auto 0px 15px;
     font-size: 14px;
     line-height: 30px;
     color:#8ccbea;
 }
 
 .section__subtitle{
-    margin: auto 15px;
+    margin: auto 15px 15px 15px;
+    font-size: 24px;
     line-height: 30px;
     color: #000;
     text-transform: capitalize;
 }
 
 .section__content{
-    margin: 15px;
+    margin: 0px 15px 30px 15px;
     line-height: 30px;
     color: #4a4a4a;
 }
 .button__go{
+    background-color: $color-backgroundPrimary;
     box-sizing: border-box;
     display: block;
     height: 45px;
@@ -30,33 +32,48 @@
     border-radius: 22.5px;
     border: 2px solid #f26002;
     color: #f26002;
+    transition: background-color ease 1s;
+
+    &:hover{
+        background-color: #f26002;
+        color: $color-textPrimary;
+    }
 }
 
 .section__reason{
     margin:auto;
     background-color: $color-backgroundSecondary;
+    color: $color-textSecondary;
+    
 }
 
 .reason__title{
-    grid-area: "title";
+    grid-area: title;
+    text-align: center;
+    margin: 30px 15px 45px 15px;
+    font-size: 24px;
 }
 
 .reason1{
-    grid-area: "reason1";
+    grid-area: reason1;
+    margin:0 auto;
 }
 
 .reason2{
-    grid-area: "reason2";
+    grid-area: reason2;
 }
 
 .reason3{
-    grid-area: "reason3"
+    grid-area: reason3;
 }
 
 .button_reason{
-    grid-area: "button";
+    grid-area: button;
 }
 
 .button__up{
-    background-image: url(../images/ico-arrow.svg)
+    background-image: url(../images/ico-arrow.svg);
+    background-color: $color-backgroundPrimary;
+    border: none;
+    padding: auto;
 }
