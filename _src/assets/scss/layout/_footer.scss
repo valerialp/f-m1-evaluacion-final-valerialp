@@ -1,0 +1,20 @@
+.footer{
+    background-color: $color-backgroundTerciary;
+    color: $color-textPrimary;
+    text-align: center;
+}
+.nav__footer{
+    grid-area: "nav-footer";
+    list-style: none;
+    padding: 0;
+}
+
+.social-networks{
+    grid-area: "social";
+    list-style: none;
+    padding: 0;
+}
+
+.copyright{
+    grid-area: "copy";
+}
