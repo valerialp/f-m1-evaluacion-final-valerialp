@@ -19,10 +19,35 @@
     color: #4a4a4a;
 }
 .button__go{
+    box-sizing: border-box;
+    display: block;
     height: 45px;
     width: 76px;
+    margin: 15px auto 45px 15px;
+    padding: auto;
+    text-align: center;
     text-decoration: none;
     border-radius: 22.5px;
     border: 2px solid #f26002;
     color: #f26002;
+}
+
+.reason__title{
+    grid-area: "title";
+}
+
+.reason1{
+    grid-area: "reason1";
+}
+
+.reason2{
+    grid-area: "reason2";
+}
+
+.reason3{
+    grid-area: "reason3"
+}
+
+.button_reason{
+    grid-area: "button";
 }
