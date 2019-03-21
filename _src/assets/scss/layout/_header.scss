@@ -1,0 +1,39 @@
+.header__container{
+    height: 500px;
+    background-color: pink;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    height: 44px;
+    width: 44px;
+    background-color: #0271bc;
+    background-image: url(../images/ico-menu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+}
+
+.header__title{
+    margin: 0;
+    text-align: center;
+}
+
+.link__content{
+    height: 45px;
+    width: 45px;
+    padding: 15px;
+    background-image: url(../images/ico-scroll-down.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.claim__main{
+    text-align: center;
+}
+
