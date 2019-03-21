@@ -29,14 +29,17 @@
     padding: auto;
     text-align: center;
     text-decoration: none;
+    line-height: 45px;
     border-radius: 22.5px;
     border: 2px solid #f26002;
     color: #f26002;
-    transition: background-color ease 1s;
+    transition: background-color ease 1s, text-shadow ease 1s, border ease 1s;
 
     &:hover{
         background-color: #f26002;
         color: $color-textPrimary;
+        text-shadow:3px 3px #ca4e01;
+        border: 2px solid #993c03;
     }
 }
 
