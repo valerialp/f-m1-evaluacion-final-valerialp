@@ -10,6 +10,22 @@
     }
 }
 
+.button__up{
+    display: block;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: $color-backgroundPrimary;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.icon-arrow{
+    height: 45px;
+    width: 45px;
+}
+
 .link__footer{
     text-decoration: none;
     color: $color-textPrimary;
