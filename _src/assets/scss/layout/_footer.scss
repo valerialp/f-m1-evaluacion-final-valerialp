@@ -19,7 +19,7 @@
     transform: translate(-50%, -50%);
     background-color: $color-backgroundPrimary;
     border-radius: 50%;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px 0 hsla(0, 0%, 0%, 0.986);
     height: 45px;
     width: 45px;
     animation-name: arrow;
@@ -29,11 +29,11 @@
     @keyframes arrow{
         from{
             background-color: $color-backgroundPrimary;
-            /*transform: rotateY(0deg);*/
+            transform: rotateY(0deg) translate(-50%, -50%);
         }
         to{
             background-color: lightgrey;
-           /* transform: rotateY(180deg);*/
+            transform: rotateY(180deg) translate(50%, -50%);
         }
     }
 }
