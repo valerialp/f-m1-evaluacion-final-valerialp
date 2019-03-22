@@ -75,10 +75,13 @@
 
     @media all and(min-width:768px){
         width: 360px;
+        font-size:20px;
+        line-height: 40px;
     }
 
     @media all and(min-width:1200px){
-        font-size: $fontSize-large;
+        font-size: 22px;
+        line-height: 50px;
         width: 730px;
     }
 }
