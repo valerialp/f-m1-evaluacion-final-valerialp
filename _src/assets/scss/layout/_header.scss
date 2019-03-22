@@ -57,6 +57,7 @@
     @media all and (min-width:1200px){
         width: 730px;
         height: 264px;
+        margin-bottom: 0;
         font-size: 100px;
         line-height: 132px;
     }
@@ -70,6 +71,10 @@
 
     @media all and (min-width:768){
         width: 360px;
+    }
+
+    @media all and(min-width:1200px){
+        font-size: $fontSize-large;
     }
 }
 

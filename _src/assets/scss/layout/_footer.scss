@@ -22,9 +22,14 @@
 }
 
 .icon-arrow{
-    height: 45px;
-    width: 45px;
-}
+    height: 35px;
+    width: 35px;
+    transform: translate(0px,6px);
+
+    @media all and(min-width:768){
+
+    }
+} 
 
 .link__footer{
     text-decoration: none;
