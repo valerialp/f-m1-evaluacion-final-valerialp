@@ -26,6 +26,7 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
+
     @keyframes arrow{
         from{
             background-color: $color-backgroundPrimary;
@@ -109,9 +110,6 @@
         margin-top: 45px;
         margin-left: 39px;
         align-items: flex-start;
-    }
-    @media all and (min-width:1200px){
-
     }
 }
 
