@@ -2,7 +2,9 @@
     background-color: $color-backgroundTerciary;
     color: $color-textPrimary;
     text-align: center;
-    height: 465px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 
     @media all and (min-width:768px){
         height: 240px;
@@ -20,6 +22,20 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     height: 45px;
     width: 45px;
+    animation-name: arrow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    @keyframes arrow{
+        from{
+            background-color: $color-backgroundPrimary;
+            /*transform: rotateY(0deg);*/
+        }
+        to{
+            background-color: lightgrey;
+           /* transform: rotateY(180deg);*/
+        }
+    }
 }
 
 .icon-arrow{
@@ -82,12 +98,20 @@
 }
 
 .copyright{
-    margin:auto;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 
     @media all and (min-width:768px){
         grid-column: 1/2;
         grid-row: 1/2;
         margin-top: 45px;
+        margin-left: 39px;
+        align-items: flex-start;
+    }
+    @media all and (min-width:1200px){
+
     }
 }
 
