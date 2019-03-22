@@ -1,24 +1,48 @@
+
 .section__title{
     height: 30px;
     margin:30px auto 0px 15px;
     font-size: 14px;
     line-height: 30px;
     color:#8ccbea;
+
+    @media all and (min-width:768px){
+        margin-left: 39px;
+    }
 }
 
 .section__subtitle{
     margin: auto 15px 15px 15px;
-    font-size: 24px;
+    font-size: $fontSize-large;
+    font-family: $fontFamily-title;
     line-height: 30px;
     color: #000;
     text-transform: capitalize;
+
+    @media all and (min-width:768px){
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+
+    @media all and (min-width:1200px){
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .section__content{
     margin: 0px 15px 30px 15px;
     line-height: 30px;
+    font-family: $fontFamily-main;
+    font-size: $fontSize-medium;
     color: #4a4a4a;
+
+    @media all and (min-width:768px){
+        margin-left: 39px;
+        margin-right: 39px;
+    }
 }
+
 .button__go{
     background-color: $color-backgroundPrimary;
     box-sizing: border-box;
@@ -31,15 +55,20 @@
     text-decoration: none;
     line-height: 45px;
     border-radius: 22.5px;
-    border: 2px solid #f26002;
-    color: #f26002;
+    border: 2px solid $color-backgroundButton;
+    color: $color-backgroundButton;
     transition: background-color ease 1s, text-shadow ease 1s, border ease 1s;
 
     &:hover{
-        background-color: #f26002;
+        background-color: $color-backgroundButton;
         color: $color-textPrimary;
         text-shadow:3px 3px #ca4e01;
         border: 2px solid #993c03;
+    }
+
+    @media all and (min-width:768px){
+        margin-left: 39px;
+        margin-right: 39px;
     }
 }
 
@@ -47,14 +76,18 @@
     background-color: $color-backgroundSecondary;
     color: $color-textSecondary;
     height: 624px;
+
+    @media all and(min-width:768px){
+        height: 397px;
+    }
 }
 
 .reason__title{
     text-transform: capitalize;
     text-align: center;
     vertical-align: center;
-    font-family: 'RobotoSlab-Bold';
-    font-size: 24px;
+    font-family: $fontFamily-title;
+    font-size: $fontSize-large;
     line-height: 30px;
     margin:30px auto 45px;
     grid-row: 1/2;
@@ -64,26 +97,37 @@
     grid-row: 1/2;
     text-align: center;
     margin: 30px 15px 45px 15px;
-    font-size: 24px;
+    font-size: 26px;
+    line-height: 45px;
     }
 }
 
 .reason__subtitle{
-    font-family: 'RobotoSlab-Bold';
-    font-size: 18px;
+    font-family: $fontFamily-title;
+    font-size: $fontSize-medium;
     text-align: center;
+    
+    @media all and (min-width:768px){
+        font-size: 24px;
+        line-height: 30px;
+    }
 }
 
 .reason__content{
-    font-family: 'Roboto-Regular';
-    font-size: 18px;
+    font-family: $fontFamily-main;
+    font-size: $fontFamily-main;
+    line-height: 30px;
     text-align: center;
     width: 180px;
     margin:0 auto;
+
+    @media all and (min-width:768px){
+        font-size: 20px;
+        line-height: 30px;
+    }
 }
 
 .reason1{
-   
     grid-row: 2/3;
 
    @media all and (min-width:768){
@@ -115,14 +159,24 @@
     display: inline-block;
     width: 184px;
     height: 45px;
+    margin: 45px auto 60px;
     border-radius: 22.5px;
     text-decoration: none;
-    font-family: 'Roboto-Medium';
+    text-align: center;
+    font-family: $fontFamily-main;
+    font-weight: 500;
     font-size: 20px;
     line-height: 45px;
     color: $color-textPrimary;
     background-color: $color-backgroundButton;
     grid-row: 5/6;
+    transition: background-color ease .5s, text-shadow ease .5s, border ease .5s;
+
+    &:hover{
+        background-color: #993c03;
+        text-shadow: 2px 2px $color-backgroundButton;
+        border: $color-backgroundButton 2px solid;
+    }
 
     @media all and (min-width:768px){
     grid-column: 1/4;

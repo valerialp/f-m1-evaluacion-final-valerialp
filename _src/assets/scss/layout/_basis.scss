@@ -1,8 +1,13 @@
+*{
+    margin:0;
+    padding: 0;
+}
 body{
     margin:0;
     padding: 0;
     background-color: $color-backgroundPrimary;
-    font-family: $fontFamily;
-    font-size: $fontSize;
+    font-family: $fontFamily-main;
+    font-size: $fontSize-small;
+    line-height: $lineHeight;
     color: $color-textPrimary;
 }
