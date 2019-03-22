@@ -1,12 +1,14 @@
 .header{
-    height: 568px;
+    height: 100vh;
+    min-height: 568px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
     @media all and (min-width:768px){
-        height: 768px;
+        height: 100vh;
+        min-height: 768px
     }
 }
 
@@ -22,7 +24,8 @@
 }
 
 .header__container{
-    height: 568px;
+    height: 100vh;
+    min-height: 568px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -30,7 +33,8 @@
     align-items: center;
 
     @media all and (min-width:768px){
-        height: 768px;
+        height: 100vh;
+        min-height: 768px;
     }
 }
 
