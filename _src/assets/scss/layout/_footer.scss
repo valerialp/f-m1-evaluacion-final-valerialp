@@ -35,7 +35,6 @@
     height: 150px;
     list-style: none;
     text-transform: uppercase;
-    font-size: 16px;
     padding: 0;
     margin: auto;
     margin-top: 45px;
@@ -54,7 +53,6 @@
     height: 86px;
     list-style: none;
     text-transform: uppercase;
-    font-size: 16px;
     padding: 0;
     margin: auto;
     display: flex;
@@ -79,5 +77,5 @@
 }
 
 .love{
-    color:red;
+    color:$color-backgroundButton;
 }

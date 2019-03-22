@@ -1,4 +1,4 @@
-.header__container{
+.header{
     height: 568px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
@@ -14,7 +14,6 @@
     height: 44px;
     width: 44px;
     border: none;
-    padding: auto;
     background-color: #0271bc;
     background-image: url(../images/ico-menu.svg);
     background-repeat: no-repeat;
@@ -22,7 +21,7 @@
     position: fixed;
 }
 
-.wrapper{
+.header__container{
     height: 568px;
     margin: 0;
     padding: 0;
@@ -36,7 +35,6 @@
 }
 
 .header__title{
-    box-sizing: border-box;
     height: 110px;
     width: 290px;
     margin-top: 284px ;
@@ -69,7 +67,6 @@
     margin:0 auto;
     text-align: center;
     font-size: 14px;
-    font-family: $fontFamily-main;
 
     @media all and (min-width:768){
         width: 360px;

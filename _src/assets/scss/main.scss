@@ -4,7 +4,8 @@
 
 //layout
 @import './layout/_basis';
-@import './layout/sectionmain';
+@import './layout/_header';
 @import './layout/_grid.scss';
+@import './layout/sectionmain';
 @import './layout/footer';
-@import './layout/_header'
+
