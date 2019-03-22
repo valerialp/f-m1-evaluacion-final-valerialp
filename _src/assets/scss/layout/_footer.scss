@@ -17,6 +17,7 @@
     transform: translate(-50%, -50%);
     background-color: $color-backgroundPrimary;
     border-radius: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     height: 45px;
     width: 45px;
 }
@@ -24,16 +25,25 @@
 .icon-arrow{
     height: 35px;
     width: 35px;
-    transform: translate(0px,6px);
+    transform: translate(0px,5px);
 
-    @media all and(min-width:768){
+    @media all and(min-width:768px){
+        transform: translate(5px,5px);
+    }
 
+    @media all and(min-width:1200px){
+        transform: translate(5px,5px);
     }
 } 
 
 .link__footer{
     text-decoration: none;
     color: $color-textPrimary;
+    transition: text-decoration linear .5s;
+
+    &:hover{
+        text-decoration:underline;
+    }
 }
 
 .nav__footer{
