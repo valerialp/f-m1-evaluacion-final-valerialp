@@ -87,7 +87,7 @@
 }
 
 .link__main{
-    display: block;
+    display: none;
     background-color: $color-backgroundPrimary;
     border-radius: 50%;
     height: 45px;
@@ -95,6 +95,7 @@
     margin:45px auto 57px;
 
     @media all and(min-width:768px){
+        display:block;
         margin: 30px auto 45px;
     }
 
